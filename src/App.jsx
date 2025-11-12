@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import "remixicon/fonts/remixicon.css";
+import './index.css';
 
 function App() {
   const [showContent, setShowContent] = useState(false);
